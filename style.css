@@ -2,15 +2,15 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
 }
 
 #moveBtn {
-  margin-bottom: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }
 
 #rectangle {
@@ -21,3 +21,4 @@ body {
   bottom: 20px;
   left: 20px;
 }
+
