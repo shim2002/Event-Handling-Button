@@ -1,3 +1,4 @@
+window.onload = function(){
 let rectangle = document.getElementById('rectangle');
 let button = document.getElementById('moveBtn');
 
@@ -27,4 +28,5 @@ button.onclick = function () {
   }
 
   position = (position + 1) % 4;
+};
 };
