@@ -18,7 +18,9 @@ button.onclick = function () {
     rectangle.style.left = '20px';
   } else if (position === 1) {
     rectangle.style.bottom = '20px';
-    rectangle.style.right = '20px';
+    rectangle.style.left = '';
+        rectangle.style.right = '20px';
+
   } else if (position === 2) {
     rectangle.style.top = '20px';
     rectangle.style.right = '20px';
